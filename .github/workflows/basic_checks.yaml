@@ -49,7 +49,7 @@ jobs:
         with:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
-          repository: jmacdon/bioc2020anno
+          repository: jmacdon/bioc2021anno
           tag_with_ref: true
           tag_with_sha: true
           tags: latest
@@ -67,6 +67,6 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
-          ACCESS_TOKEN: ${{ secrets.Bioc2020Anno }}
+          ACCESS_TOKEN: ${{ secrets.Bioc2021Anno }}
           BRANCH: gh-pages # The branch the action should deploy to.
           FOLDER: docs # The folder the action should deploy.
