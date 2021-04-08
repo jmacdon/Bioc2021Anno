@@ -64,7 +64,7 @@ jobs:
           apt-get update
           apt-get -y install rsync
 
-        name: Install SSH Client
+      - name: Install SSH Client
         uses: webfactory/ssh-agent@v0.4.1
         with:
           ssh-private-key: ${{ secrets.DEPLOY_KEY }}
