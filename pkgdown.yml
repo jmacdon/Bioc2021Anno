@@ -3,8 +3,8 @@ pkgdown: 1.6.1
 pkgdown_sha: ~
 articles:
   AnnotationWorkshop: AnnotationWorkshop.html
-last_built: 2021-05-28T17:53Z
+last_built: 2021-05-28T19:07Z
 urls:
-  reference: https://jmacdon.github.io/Bioc2020Anno/reference
-  article: https://jmacdon.github.io/Bioc2020Anno/articles
+  reference: https://jmacdon.github.io/Bioc2021Anno/reference
+  article: https://jmacdon.github.io/Bioc2021Anno/articles
 
