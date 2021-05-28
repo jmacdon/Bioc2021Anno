@@ -1,15 +1,15 @@
 ---
-title: "Bioconductor 2020 Annotation Workshop"
+title: "Bioconductor 2021 Annotation Workshop"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Bioconductor 2020 Annotation Workshop}
+  %\VignetteIndexEntry{Bioconductor 2021 Annotation Workshop}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
  	
 # Introduction to Bioconductor Annotation Resources
 
-Bioc 2020: 29-31 July
+Bioc 2021: 4-6 August
 
 ## Instructors
 
@@ -96,7 +96,7 @@ to a Biologist.
 
 ```{r setup, include = FALSE, warning = FALSE}
 
-library(Bioc2020Anno)
+library(Bioc2021Anno)
 library(hugene20sttranscriptcluster.db)
 library(EnsDb.Mmusculus.v79)
 library(org.Hs.eg.db)
@@ -149,7 +149,7 @@ knitr::include_graphics("./eset.png")
 
 ```{r, warning = FALSE}
 
-load(file.path(system.file(package = "Bioc2020Anno", "extdata"), "eset.Rdata"))
+load(file.path(system.file(package = "Bioc2021Anno", "extdata"), "eset.Rdata"))
 eset
 
 ```

@@ -1,5 +1,5 @@
-Package: Bioc2020Anno
-Title: Package for Bioconductor 2020 annotation workshop
+Package: Bioc2021Anno
+Title: Package for Bioconductor 2021 annotation workshop
 Version: 0.5.10
 Authors@R: c(person("James", "MacDonald", role = c("aut", "cre"),
 	            email = "jmacdon@uw.edu"),

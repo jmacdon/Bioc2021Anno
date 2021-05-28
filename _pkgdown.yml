@@ -1,4 +1,4 @@
-url: https://jmacdon.github.io/Bioc2020Anno
+url: https://jmacdon.github.io/Bioc2021Anno
 
 template:
   params:
@@ -6,13 +6,13 @@ template:
     ganalytics: UA-93043521-1
 
 home:
-  title: "Bioc2020Anno"
+  title: "Bioc2021Anno"
   type: inverse
 
 
 navbar:
   right:
    - icon: fa-github
-     href: https://github.com/jmacdon/Bioc2020Anno
+     href: https://github.com/jmacdon/Bioc2021Anno
      
 
