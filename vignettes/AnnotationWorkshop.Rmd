@@ -106,6 +106,7 @@ library(BSgenome)
 library(BSgenome.Hsapiens.UCSC.hg19)
 library(AnnotationHub)
 library(Organism.dplyr)
+library(Orthology.eg.db)
 
 ```
 
@@ -464,6 +465,33 @@ ExpressionSet.
 * How many genes are between 2858473 and 3271812 on chr2 in the hg19
 genome?
     - Hint: you make a `GRanges` like this - `GRanges("chr2", IRanges(2858473,3271812))`
+
+## Orthology.eg.db package
+
+The new Orthology.eg.db package is intended to replace the previous Inparanoid-based 
+packages, and provides mappings between NCBI Gene IDs for two species.
+
+```{r, warning = FALSE}
+
+library(Orthology.eg.db)
+map <- select(Orthology.eg.db, keys(org.Hs.eg.db), "Danio_rerio","Homo_sapiens")
+dim(map)
+dim(map[!is.na(map[,2]),])
+head(map[!is.na(map[,2]),])
+
+```
+
+## Orthology.eg.db package
+
+There are (currently) 368 species in this package.
+
+```{r, warning = FALSE}
+
+species <- keytypes(Orthology.eg.db)
+length(species)
+grep("rhino", species, value = TRUE, ignore.case = TRUE)
+
+```
 
 ## OrganismDb packages
 
