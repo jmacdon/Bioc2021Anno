@@ -21,7 +21,8 @@ Depends:
     biomaRt,
     AnnotationHub,
     EnsDb.Mmusculus.v79,
-    Organism.dplyr
+    Organism.dplyr,
+    Orthology.eg.db
 Suggests:
     rmarkdown,
     knitr,
